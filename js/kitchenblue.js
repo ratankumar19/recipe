@@ -1,8 +1,3 @@
-// jshint esversion:6
-
-// JavaScript file for the web page "Kitchen Blue"
-// Created by Harrison Kong
-// Copyright (C) Coursera 2020
 
 // This function is called automatically after the web page is done loading
 
@@ -11,7 +6,7 @@ $(document).ready(function() {
   $("#query-form").submit(function(event) { performSearch(event); });
 });
 
-// These website no longer work but are still returned by the recipe puppy
+
 
 var defunctDomains = [
   "kraftfoods.com",
